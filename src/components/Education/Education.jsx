@@ -1,6 +1,5 @@
 import Lottie from "lottie-react";
 import edu from "../../assets/animation/education.json";
-import style from "./education.module.css";
 
 function Education() {
   return (
