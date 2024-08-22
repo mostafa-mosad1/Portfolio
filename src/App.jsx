@@ -4,7 +4,7 @@ import Layout from "./components/Layout/Layout";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Education from "./components/Education/Education.JSX";
+import Education from "./components/Education/Education.jsx";
 import Contact from "./components/Contact/Contact";
 import Skills from "./components/Skills/Skills";
 import "@fortawesome/fontawesome-free/css/all.min.css";
