@@ -50,7 +50,7 @@ function NavBar() {
           ></i>
         </div>
       </div>
-      <div className="mobile dark:bg-backGround bg-cyan-700">
+      <div className="mobile dark:bg-black bg-[#1E0235] border border-0 border-b-2 border-mainColor">
         <div className="flex flex-col">
           <div className="lg:hidden  flex container justify-between py-5  text-white font-titleFont">
             <h1 className="text-2xl font-bold">Mostafa Mosad</h1>

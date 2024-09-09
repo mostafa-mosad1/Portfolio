@@ -11,6 +11,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import ModeContextProvider from "./Context/ModeContext";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import "@fortawesome/fontawesome-free/css/all.min.css"
+
 
 
 

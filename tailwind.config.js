@@ -19,7 +19,8 @@ export default {
         navBG :"#525b6f"
       },
       fontFamily:{
-        titleFont : ["DM Serif Text", "serif"]
+        titleFont : ["DM Serif Text", "serif"],
+        projectFont : ["Oswald", "sans-serif"]
       }
     },
     

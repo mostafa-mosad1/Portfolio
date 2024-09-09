@@ -22,10 +22,12 @@ function Home() {
                 Hire me
               </button>
               <button className=" border-mainColor border-[2px] w-full lg:w-fit  p-2 my-2 rounded-md hover:bg-mainColor hover:text-white font-bold">
-                <a  target="_blank" href="https://drive.google.com/file/d/1yXNHiM6Zta0r7M8HKR_Qs72Bbho4hbXi/view?usp=sharing">
-                Get Resume
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1yXNHiM6Zta0r7M8HKR_Qs72Bbho4hbXi/view?usp=sharing"
+                >
+                  Get Resume
                 </a>
-                
               </button>
             </div>
             <div className="flex justify-center lg:justify-start lg:items-start space-x-3 mt-4 text-2xl">
@@ -46,7 +48,10 @@ function Home() {
               </a>
             </div>
           </div>
-          <div data-aos="fade-left" className="w-6/12 mb-12  lg:mb-0 order-1 lg:order-4  flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-8  justify-center items-center">
+          <div
+            data-aos="fade-left"
+            className="w-6/12 mb-12  lg:mb-0 order-1 lg:order-4  flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-8  justify-center items-center"
+          >
             <div
               className={`relative  rounded-md   after:bg-indigo-900/50 dark:after:bg-white/80  p-1 ${style.img}`}
             >
@@ -68,8 +73,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-   
     </>
   );
 }

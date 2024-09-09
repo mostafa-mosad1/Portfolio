@@ -51,7 +51,7 @@ function Contact() {
 
   return (
     <>
-      <div className="container flex flex-col lg:flex-row flex-wrap  items-center lg:justify-between">
+      <div className="container flex flex-col lg:flex-row flex-wrap pb-10 items-center lg:justify-between">
         <div className=" order-2 lg:order-1 lg:w-1/2 flex flex-col items-start justify-start">
           <div className="w-full my-10 p-4 bg-400 text-black dark:text-black">
             <form ref={form} onSubmit={handleSubmit(onSubmit)}>
@@ -60,22 +60,22 @@ function Contact() {
                   Name
                 </label>
                 <input
-                  className="ps-3 text-2xl text-black font-serif"
+                  className="p-1 ps-3 text-2xl text-black font-serif rounded-md"
                   {...register("name")}
                 />
                 <InputErrorMessage msg={errors.name?.message} />
-                <label className="ps-3 text-2xl text-white font-semibold">
+                <label className=" text-2xl text-white font-semibold">
                   Email
                 </label>
                 <input
-                  className="ps-3 text-2xl text-black font-serif"
+                  className="p-1 ps-3 rounded-md text-2xl text-black font-serif"
                   {...register("email")}
                 />
                 <InputErrorMessage msg={errors.email?.message} />
                 <label className="ps-3 text-2xl text-white font-semibold">
                   Message
                 </label>
-                <textarea cols={10} rows={8} {...register("message")} />
+                <textarea className="p-1 ps-3 rounded-md text-2xl text-black font-serif" cols={10} rows={8} {...register("message")} />
                 <InputErrorMessage msg={errors.message?.message} />
                 <Button
                   type="submit"
