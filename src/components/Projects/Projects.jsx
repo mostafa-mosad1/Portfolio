@@ -383,7 +383,7 @@ export default function Projects() {
       <div className="flex h-screen w-full justify-center pt-20 px-4">
         <div className="w-full container">
           <TabGroup>
-            <TabList className="flex justify-center items-center text-2xl gap-4">
+            <TabList className="flex flex-wrap flex-row justify-center items-center text-2xl gap-4">
               {categories.map(({ name }) => (
                 <Tab
                   key={name}
