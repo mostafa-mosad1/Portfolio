@@ -55,6 +55,11 @@ import delicious3 from "../../assets/ptojects/delicious3.png";
 import delicious4 from "../../assets/ptojects/delicious4.png";
 import delicious5 from "../../assets/ptojects/delicious5.png";
 
+import social1 from "../../assets/ptojects/social1.png";
+import social2 from "../../assets/ptojects/social2.png";
+import social3 from "../../assets/ptojects/social3.png";
+import social4 from "../../assets/ptojects/social5.png";
+import social5 from "../../assets/ptojects/social6.png";
 
 import wheater from "../../assets/ptojects/wheater.png";
 
@@ -65,16 +70,25 @@ const categories = [
       {
         id: 1,
         title: "Social App",
-        image: [party1, party2, party3, freshCart],
-        description: "5h szx.kbZ>CXblxbclask",
-        technologies: "Next.ts ,Rducx and tailwindcss",
-        Githup: "https://github.com/mostafa-mosad1?tab=repositories",
-        Demo: "https://github.com/mostafa-mosad1?tab=repositories",
+        image: [social1, social2, social3, social4, social5],
+        description:
+          "Developed a Next.js application using Redux Toolkit for state management, React Hook Form for form handling, and Axios for API interactions. The platform features a userauthentication system allowing users to log in, view their own and others' posts, andmanage posts and comments. Implemented robust functionalities for post creation,deletion, and commenting.",
+        technologies:
+          "NextJs - Typescript - Reduxjs/toolkit- TaillwindCSS - React-hook-form - Axios - headlessui",
+        Githup: "https://github.com/mostafa-mosad1/web-social-app",
+        Demo: "https://web-social-app-six.vercel.app/",
       },
       {
         id: 2,
         title: "fresh Cart",
-        image: [freshCart,freshCart2,freshCart3,freshCart4,freshCart5,freshCart6],
+        image: [
+          freshCart,
+          freshCart2,
+          freshCart3,
+          freshCart4,
+          freshCart5,
+          freshCart6,
+        ],
         description:
           "This project is an e-commerce website for selling products. Key features include Products, Categories, Brands listings, add-to-cart and remove-from-cart functionalities,add-to-Washlist and remove-from-Washlist functionalities, user authentication (sign-up and login) and hadling forget password. this project implemented withBackend by using Apis.",
         technologies:
@@ -96,7 +110,7 @@ const categories = [
       {
         id: 4,
         title: "START-FRAMEWORK",
-        image: [start1, start2, start3,start4],
+        image: [start1, start2, start3, start4],
         description:
           "This project is a self website portfolio used to manage projects, skills and information it help the user to marketing for him self.",
         technologies:
@@ -191,7 +205,7 @@ const categories = [
       {
         id: 13,
         title: "Rock-paper-scissors-game",
-        image: [game,game2,game3],
+        image: [game, game2, game3],
         description: "Games.",
         technologies: "html, css, javascript",
         Githup: "https://github.com/mostafa-mosad1/Rock-paper-scissors-game",
@@ -280,7 +294,7 @@ const categories = [
       {
         id: 7,
         title: "Rock-paper-scissors-game",
-        image: [game,game2,game3],
+        image: [game, game2, game3],
         description: "Games.",
         technologies: "html, css, javascript",
         Githup: "https://github.com/mostafa-mosad1/Rock-paper-scissors-game",
@@ -319,7 +333,14 @@ const categories = [
       {
         id: 2,
         title: "fresh Cart",
-        image: [freshCart,freshCart2,freshCart3,freshCart4,freshCart5,freshCart6],
+        image: [
+          freshCart,
+          freshCart2,
+          freshCart3,
+          freshCart4,
+          freshCart5,
+          freshCart6,
+        ],
         description:
           "This project is an e-commerce website for selling products. Key features include Products, Categories, Brands listings, add-to-cart and remove-from-cart functionalities,add-to-Washlist and remove-from-Washlist functionalities, user authentication (sign-up and login) and hadling forget password. this project implemented withBackend by using Apis.",
         technologies:
@@ -341,7 +362,7 @@ const categories = [
       {
         id: 4,
         title: "START-FRAMEWORK",
-        image: [start1, start2, start3,start4],
+        image: [start1, start2, start3, start4],
         description:
           "This project is a self website portfolio used to manage projects, skills and information it help the user to marketing for him self.",
         technologies:
@@ -357,11 +378,13 @@ const categories = [
       {
         id: 1,
         title: "Social App",
-        image: [party1, party2, party3],
-        description: "5h szx.kbZ>CXblxbclask",
-        technologies: "Next.ts ,Rducx and tailwindcss",
-        Githup: "https://github.com/mostafa-mosad1?tab=repositories",
-        Demo: "https://github.com/mostafa-mosad1?tab=repositories",
+        image: [social1, social2, social3, social4, social5],
+        description:
+          "Developed a Next.js application using Redux Toolkit for state management, React Hook Form for form handling, and Axios for API interactions. The platform features a userauthentication system allowing users to log in, view their own and others' posts, andmanage posts and comments. Implemented robust functionalities for post creation,deletion, and commenting.",
+        technologies:
+          "NextJs - Typescript - Reduxjs/toolkit- TaillwindCSS - React-hook-form - Axios - headlessui",
+        Githup: "https://github.com/mostafa-mosad1/web-social-app",
+        Demo: "https://web-social-app-six.vercel.app/",
       },
     ],
   },
@@ -399,7 +422,7 @@ export default function Projects() {
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
                     {posts.map((post) => (
                       <div
-                       data-aos="flip-up"
+                        data-aos="flip-up"
                         key={post.id}
                         className="bg-gray-700  mx-auto w-full p-5  border-mainColor border-2 rounded-md"
                       >
