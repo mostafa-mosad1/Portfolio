@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { ModeContext } from "../../Context/ModeContext";
-import me from "../../assets/me3.png";
+
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +19,7 @@ function NavBar() {
   }, [mode]);
   return (
     <>
-      <div className="pc border-b-mainColor border-transparent border-[1px] dark:bg-black bg-[#1E0235]">
+      <div className="pc sticky top-0 inset-x-0 z-50 border-b-mainColor border-transparent border-[1px] dark:bg-black bg-[#1E0235]">
         <div className="hidden lg:flex container justify-between py-5  text-white font-titleFont">
           <div className="flex">
           
@@ -30,8 +30,8 @@ function NavBar() {
             <NavLink to={""}>Home</NavLink>
             <NavLink to={"about"}>About</NavLink>
             <NavLink to={"Project"}>Project</NavLink>
-            <NavLink to={"education"}>Education</NavLink>
             <NavLink to={"skills"}>Skills</NavLink>
+            <NavLink to={"education"}>Education</NavLink>
             <NavLink to={"contact"}>Contact</NavLink>
           </ul>
           <i
@@ -50,7 +50,7 @@ function NavBar() {
           ></i>
         </div>
       </div>
-      <div className="mobile dark:bg-black bg-[#1E0235] border border-0 border-b-2 border-mainColor">
+      <div className="mobile sticky top-0 inset-x-0 z-50 dark:bg-black bg-[#1E0235] border border-0 border-b-2 border-mainColor">
         <div className="flex flex-col">
           <div className="lg:hidden  flex container justify-between py-5  text-white font-titleFont">
             <h1 className="text-2xl font-bold">Mostafa Mosad</h1>
@@ -89,11 +89,11 @@ function NavBar() {
               <NavLink className={"border-b-2 w-full my-2 py-1 "} to={"Project"}>
                 Project
               </NavLink>
-              <NavLink className={"border-b-2 w-full my-2 py-1 "} to={"education"}>
-                Education
-              </NavLink>
               <NavLink className={"border-b-2 w-full my-2 py-1 "} to={"skills"}>
                 Skills
+              </NavLink>
+              <NavLink className={"border-b-2 w-full my-2 py-1 "} to={"education"}>
+                Education
               </NavLink>
               <NavLink className={"border-b-2 w-full my-2 py-1 "} to={"contact"}>
                 Contact

@@ -63,10 +63,30 @@ import social5 from "../../assets/ptojects/social6.png";
 
 import wheater from "../../assets/ptojects/wheater.png";
 
+import Qurank1 from "../../assets/ptojects/Qurank1.png";
+import Qurank2 from "../../assets/ptojects/Qurank2.png";
+import Qurank3 from "../../assets/ptojects/Qurank3.png";
+import Qurank4 from "../../assets/ptojects/Qurank4.png";
+import Qurank5 from "../../assets/ptojects/Qurank5.png";
+import Qurank6 from "../../assets/ptojects/Qurank6.png";
+import Qurank7 from "../../assets/ptojects/Qurank7.png";
+
+
 const categories = [
   {
     name: "All",
     posts: [
+      {
+        id: 14,
+        title: "Qurank",
+        image: [Qurank1, Qurank2, Qurank3, Qurank4, Qurank5,Qurank6,Qurank7],
+        description:
+          "A comprehensive Quran website offering recitations, multiple interpretations for each verse, related Hadiths, and live Quran radio streaming. It aims to facilitate Quran understanding and reflection through educational and interactive tools.",
+        technologies:
+          "React - TaillwindCSS - TypeScript - Headlessui - real Apis - fontawesome - react-router-dom - react-slick - Axios",
+        Githup: "https://github.com/mostafa-mosad1/Qurank",
+        Demo: "https://qurank.vercel.app/",
+      },
       {
         id: 1,
         title: "Social App",
@@ -76,7 +96,7 @@ const categories = [
         technologies:
           "NextJs - Typescript - Reduxjs/toolkit- TaillwindCSS - React-hook-form - Axios - headlessui",
         Githup: "https://github.com/mostafa-mosad1/web-social-app",
-        Demo: "https://web-social-app-six.vercel.app/",
+        Demo: "https://social-app-chi.vercel.app/",
       },
       {
         id: 2,
@@ -114,7 +134,7 @@ const categories = [
         description:
           "This project is a self website portfolio used to manage projects, skills and information it help the user to marketing for him self.",
         technologies:
-          "reactjs, Tailwindcss, fontawesome, react-router-dom, react-hooks",
+          "reactjs - Tailwindcss - fontawesome - react-router-dom - react-hooks",
         Githup: "https://github.com/mostafa-mosad1/START-FRAMEWORK",
         Demo: "https://mostafa-mosad1.github.io/START-FRAMEWORK/",
       },
@@ -124,7 +144,7 @@ const categories = [
         image: [route1, route2, route3],
         description:
           "This project is seems to dashbord, it's contain table to display customer transactions and draw a chart to show the Percentage of each transaction. Key features include search by name of customer and search by the amount of transaction",
-        technologies: "HTML, CSS, Bootstrap,JS,fetch API and chart-js",
+        technologies: "HTML - CSS - Bootstrap - JS - fetch API and chart-js",
         Githup: "https://github.com/mostafa-mosad1/Route-Tech",
         Demo: "https://mostafa-mosad1.github.io/Route-Tech/",
       },
@@ -146,7 +166,7 @@ const categories = [
         description:
           "This project is a simple website. With this app, you can Make your own quizzes , Take quizzes by entering a special code . It's designed to be easy to use and fun for everyone!. ",
         technologies:
-          "html, css, javascript, bootstrap,real Apis,fontawesome ,toastr.js",
+          "html - css - javascript - bootstrap - real Apis - fontawesome - toastr.js",
         Githup: "https://github.com/mostafa-mosad1/Quiz-App",
         Demo: "https://mostafa-mosad1.github.io/Quiz-App/",
       },
@@ -157,7 +177,7 @@ const categories = [
         description:
           "This project is a gmaes website. Key features include Register, login, home and details pages implemented withBackend by using Apis, it has dark and light mode and it has guard authentication and security.",
         technologies:
-          "html, css, javascript, bootstrap,real Apis,fontawesome ,toastr.js",
+          "html - css - javascript - bootstrap - real Apis - fontawesome  - toastr.js",
         Githup: "https://github.com/mostafa-mosad1/Fun-World-Sidte",
         Demo: "https://mostafa-mosad1.github.io/Fun-World-Sidte/",
       },
@@ -331,6 +351,17 @@ const categories = [
     name: "React",
     posts: [
       {
+        id: 14,
+        title: "Qurank",
+        image: [Qurank1, Qurank2, Qurank3, Qurank4, Qurank5,Qurank6,Qurank7],
+        description:
+          "A comprehensive Quran website offering recitations, multiple interpretations for each verse, related Hadiths, and live Quran radio streaming. It aims to facilitate Quran understanding and reflection through educational and interactive tools.",
+        technologies:
+          "React - TaillwindCSS - TypeScript - Headlessui - real Apis - fontawesome - react-router-dom - react-slick - Axios",
+        Githup: "https://github.com/mostafa-mosad1/Qurank",
+        Demo: "https://qurank.vercel.app/",
+      },
+      {
         id: 2,
         title: "fresh Cart",
         image: [
@@ -384,7 +415,7 @@ const categories = [
         technologies:
           "NextJs - Typescript - Reduxjs/toolkit- TaillwindCSS - React-hook-form - Axios - headlessui",
         Githup: "https://github.com/mostafa-mosad1/web-social-app",
-        Demo: "https://web-social-app-six.vercel.app/",
+        Demo: "https://social-app-chi.vercel.app/",
       },
     ],
   },
