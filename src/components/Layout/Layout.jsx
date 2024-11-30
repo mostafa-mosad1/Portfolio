@@ -10,7 +10,9 @@ function Layout() {
       <div className="absolute inset-0 text-white dark:text-white">
         <div className="relative z-10">
           <NavBar />
-          <Outlet />
+         <div className = " mt-20">
+         <Outlet />
+           </div>
         </div>
         <An />
       </div>

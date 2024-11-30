@@ -19,7 +19,7 @@ function NavBar() {
   }, [mode]);
   return (
     <>
-      <div className="pc sticky top-0 inset-x-0 z-50 border-b-mainColor border-transparent border-[1px] dark:bg-black bg-[#1E0235]">
+      <div className="pc fixed top-0 inset-x-0 z-50 border-b-mainColor border-transparent border-[1px] dark:bg-black bg-[#1E0235]">
         <div className="hidden lg:flex container justify-between py-5  text-white font-titleFont">
           <div className="flex">
           
@@ -34,7 +34,8 @@ function NavBar() {
             <NavLink to={"education"}>Education</NavLink>
             <NavLink to={"contact"}>Contact</NavLink>
           </ul>
-          <i
+          <div className=""></div>
+          {/* <i
             onClick={() => {
               if (mode == "light") {
                 localStorage.setItem("mode", "dark");
@@ -47,10 +48,10 @@ function NavBar() {
             className={`fa-solid ${
               mode == "light" ? "fa-moon" : "fa-sun"
             } text-4xl `}
-          ></i>
+          ></i> */}
         </div>
       </div>
-      <div className="mobile sticky top-0 inset-x-0 z-50 dark:bg-black bg-[#1E0235] border-b-2 border-mainColor">
+      <div className="mobile fixed top-0 inset-x-0 z-50 dark:bg-black bg-[#1E0235] border-b-2 border-mainColor">
         <div className="flex flex-col">
           <div className="lg:hidden  flex container justify-between py-5  text-white font-titleFont">
             <h1 className="text-2xl font-bold">Mostafa Mosad</h1>
@@ -61,7 +62,8 @@ function NavBar() {
                 }}
                 className="fa-solid fa-bars text-4xl"
               ></i>
-              <i
+              <div className=""></div>
+              {/* <i
                 onClick={() => {
                   if (mode == "light") {
                     localStorage.setItem("mode", "dark");
@@ -74,12 +76,12 @@ function NavBar() {
                 className={`fa-solid ${
                   mode == "light" ? "fa-moon" : "fa-sun"
                 } text-4xl `}
-              ></i>
+              ></i> */}
             </div>
           </div>
           {isOpen && (
             <div className="">
-            <ul data-aos="flip-up" className="  flex flex-col  relative z-10  text-xl text-white bg-navBG rounded-md w-2/4 mx-auto mb-5 font-titleFont  p-12 font-semibold">
+            <ul onClick={()=>setIsOpen(false)} data-aos="flip-up" className="  flex flex-col  relative z-10  text-xl text-white bg-navBG rounded-md w-2/4 mx-auto mb-5 font-titleFont  p-12 font-semibold">
               <NavLink className={"border-b-2 w-full my-2 py-1 "} to={""}>
                 Home
               </NavLink>

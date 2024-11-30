@@ -156,7 +156,7 @@ managing products and categories, allowing for easy addition, deletion, and upda
         technologies:
           "React - TaillwindCSS - TypeScript - strapi.io  - react_router_dom - react-slick - Axios - redux - redux toolkit query - Chakra UI ",
         Githup: "https://github.com/mostafa-mosad1/Ecommerce-with-Dashboard",
-        Demo: "https://ecommerce-with-dashboard-sage.vercel.app/Home",
+        Demo: "https://drive.google.com/file/d/10F8YCuJpVUjyRsXnCVsrjBmaNRs3eduK/view?usp=sharing",
       },
       {
         id: 14,
@@ -465,7 +465,7 @@ managing products and categories, allowing for easy addition, deletion, and upda
         technologies:
           "React - TaillwindCSS - TypeScript - strapi.io  - react_router_dom - react-slick - Axios - redux - redux toolkit query - Chakra UI ",
         Githup: "https://github.com/mostafa-mosad1/Ecommerce-with-Dashboard",
-        Demo: "https://ecommerce-with-dashboard-sage.vercel.app/Home",
+        Demo: "https://drive.google.com/file/d/10F8YCuJpVUjyRsXnCVsrjBmaNRs3eduK/view?usp=sharing",
       },  
       {
         id: 14,
@@ -568,7 +568,7 @@ export default function Projects() {
       <div className="flex relative h-screen w-full justify-center pt-20 px-4">
         <div className="w-full container">
           <TabGroup>
-            <TabList className="flex sticky top-2 z-40 inset-x-0  bg-navBG rounded-full px-6 py-2  w-fit mx-auto text-center space-x-4 font-semibold flex-wrap flex-row justify-center items-center text-2xl gap-4">
+            <TabList className="flex sticky top-24 z-40 inset-x-0  bg-navBG rounded-full px-6 py-2  w-fit mx-auto text-center space-x-4 font-semibold flex-wrap flex-row justify-center items-center text-2xl gap-4">
               {categories.map(({ name }) => (
                 <Tab
                   key={name}

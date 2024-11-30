@@ -7,7 +7,7 @@ import style from "../Home/Home.module.css";
 function Home() {
   return (
     <>
-      <div className=" container py-10 ">
+      <div className=" md:container py-10 ">
         <div className="flex flex-col lg:flex-row  items-center justify-between  flex-wrap gap-y-10 lg:gap-0">
           <div data-aos="fade-right" className="w-6/12 order-2 space-y-4">
             <h2 className="text-4xl font-bold font-titleFont dark:text-white">
