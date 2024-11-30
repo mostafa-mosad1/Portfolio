@@ -2,19 +2,23 @@ import { Outlet } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 import An from "../An";
 
+
+
 function Layout() {
   return (
     <>
-    <div className="">
-
-      <div className="  text-white   absolute inset-0  dark:text-white z-50 ">
-        <NavBar />
-        <Outlet></Outlet>
-      </div>
+      <div className="absolute inset-0 text-white dark:text-white">
+        <div className="relative z-10">
+          <NavBar />
+          <Outlet />
+        </div>
         <An />
-    </div>
+      </div>
     </>
   );
 }
 
+
+
 export default Layout;
+

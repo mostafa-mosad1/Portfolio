@@ -3,73 +3,106 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import freshCart from "../../assets/ptojects/freshCart.png";
-import freshCart2 from "../../assets/ptojects/freshCart2.png";
-import freshCart3 from "../../assets/ptojects/freshCart3.png";
-import freshCart4 from "../../assets/ptojects/freshCart4.png";
-import freshCart5 from "../../assets/ptojects/freshCart5.png";
-import freshCart6 from "../../assets/ptojects/freshCart6.png";
+import freshCart from "../../assets/projects/freshCart.png";
+import freshCart2 from "../../assets/projects/freshCart2.png";
+import freshCart3 from "../../assets/projects/freshCart3.png";
+import freshCart4 from "../../assets/projects/freshCart4.png";
+import freshCart5 from "../../assets/projects/freshCart5.png";
+import freshCart6 from "../../assets/projects/freshCart6.png";
 
-import party1 from "../../assets/ptojects/party1.png";
-import party2 from "../../assets/ptojects/party2.png";
-import party3 from "../../assets/ptojects/party3.png";
+import party1 from "../../assets/projects/party1.png";
+import party2 from "../../assets/projects/party2.png";
+import party3 from "../../assets/projects/party3.png";
 
-import game from "../../assets/ptojects/game1.png";
-import game2 from "../../assets/ptojects/game2.png";
-import game3 from "../../assets/ptojects/game3.png";
+import game from "../../assets/projects/game1.png";
+import game2 from "../../assets/projects/game2.png";
+import game3 from "../../assets/projects/game3.png";
 
-import crud1 from "../../assets/ptojects/crud1.png";
-import crud2 from "../../assets/ptojects/crud2.png";
-import crud3 from "../../assets/ptojects/crud3.png";
+import crud1 from "../../assets/projects/crud1.png";
+import crud2 from "../../assets/projects/crud2.png";
+import crud3 from "../../assets/projects/crud3.png";
 
-import start1 from "../../assets/ptojects/start1.png";
-import start2 from "../../assets/ptojects/start2.png";
-import start3 from "../../assets/ptojects/start5.png";
-import start4 from "../../assets/ptojects/start4.png";
+import start1 from "../../assets/projects/start1.png";
+import start2 from "../../assets/projects/start2.png";
+import start3 from "../../assets/projects/start5.png";
+import start4 from "../../assets/projects/start4.png";
 
-import route1 from "../../assets/ptojects/route1.png";
-import route2 from "../../assets/ptojects/route2.png";
-import route3 from "../../assets/ptojects/route3.png";
+import route1 from "../../assets/projects/route1.png";
+import route2 from "../../assets/projects/route2.png";
+import route3 from "../../assets/projects/route3.png";
 
-import yummy1 from "../../assets/ptojects/yummy1.png";
-import yummy2 from "../../assets/ptojects/yummy2.png";
-import yummy3 from "../../assets/ptojects/yummy3.png";
-import yummy4 from "../../assets/ptojects/yummy4.png";
-import yummy5 from "../../assets/ptojects/yummy5.png";
+import yummy1 from "../../assets/projects/yummy1.png";
+import yummy2 from "../../assets/projects/yummy2.png";
+import yummy3 from "../../assets/projects/yummy3.png";
+import yummy4 from "../../assets/projects/yummy4.png";
+import yummy5 from "../../assets/projects/yummy5.png";
 
-import quiz1 from "../../assets/ptojects/quiz1.png";
-import quiz2 from "../../assets/ptojects/quiz2.png";
-import quiz3 from "../../assets/ptojects/quiz3.png";
+import quiz1 from "../../assets/projects/quiz1.png";
+import quiz2 from "../../assets/projects/quiz2.png";
+import quiz3 from "../../assets/projects/quiz3.png";
 
-import fun1 from "../../assets/ptojects/fun1.png";
-import fun2 from "../../assets/ptojects/fun2.png";
-import fun3 from "../../assets/ptojects/fun3.png";
+import fun1 from "../../assets/projects/fun1.png";
+import fun2 from "../../assets/projects/fun2.png";
+import fun3 from "../../assets/projects/fun3.png";
 
-import book1 from "../../assets/ptojects/book1.png";
-import book2 from "../../assets/ptojects/book2.png";
-import book3 from "../../assets/ptojects/book3.png";
+import book1 from "../../assets/projects/book1.png";
+import book2 from "../../assets/projects/book2.png";
+import book3 from "../../assets/projects/book3.png";
 
-import delicious1 from "../../assets/ptojects/delicious1.png";
-import delicious2 from "../../assets/ptojects/delicious2.png";
-import delicious3 from "../../assets/ptojects/delicious3.png";
-import delicious4 from "../../assets/ptojects/delicious4.png";
-import delicious5 from "../../assets/ptojects/delicious5.png";
+import delicious1 from "../../assets/projects/delicious1.png";
+import delicious2 from "../../assets/projects/delicious2.png";
+import delicious3 from "../../assets/projects/delicious3.png";
+import delicious4 from "../../assets/projects/delicious4.png";
+import delicious5 from "../../assets/projects/delicious5.png";
 
-import social1 from "../../assets/ptojects/social1.png";
-import social2 from "../../assets/ptojects/social2.png";
-import social3 from "../../assets/ptojects/social3.png";
-import social4 from "../../assets/ptojects/social5.png";
-import social5 from "../../assets/ptojects/social6.png";
+import social1 from "../../assets/projects/social1.png";
+import social2 from "../../assets/projects/social2.png";
+import social3 from "../../assets/projects/social3.png";
+import social4 from "../../assets/projects/social5.png";
+import social5 from "../../assets/projects/social6.png";
 
-import wheater from "../../assets/ptojects/wheater.png";
+import wheater from "../../assets/projects/wheater.png";
 
-import Qurank1 from "../../assets/ptojects/Qurank1.png";
-import Qurank2 from "../../assets/ptojects/Qurank2.png";
-import Qurank3 from "../../assets/ptojects/Qurank3.png";
-import Qurank4 from "../../assets/ptojects/Qurank4.png";
-import Qurank5 from "../../assets/ptojects/Qurank5.png";
-import Qurank6 from "../../assets/ptojects/Qurank6.png";
-import Qurank7 from "../../assets/ptojects/Qurank7.png";
+import Qurank1 from "../../assets/projects/Qurank1.png";
+import Qurank2 from "../../assets/projects/Qurank2.png";
+import Qurank3 from "../../assets/projects/Qurank3.png";
+import Qurank4 from "../../assets/projects/Qurank4.png";
+import Qurank5 from "../../assets/projects/Qurank5.png";
+import Qurank6 from "../../assets/projects/Qurank6.png";
+import Qurank7 from "../../assets/projects/Qurank7.png";
+
+
+import ecommerce1 from "../../assets/projects/dashbord1.png";
+import ecommerce2 from "../../assets/projects/dashbord2.png";
+import ecommerce3 from "../../assets/projects/dashbord3.png";
+import ecommerce4 from "../../assets/projects/dashbord4.png";
+import ecommerce5 from "../../assets/projects/dashbord5.png";
+import ecommerce6 from "../../assets/projects/dashbord6.png";
+
+import todo1 from "../../assets/projects/todo1.png";
+import todo2 from "../../assets/projects/todo2.png";
+import todo3 from "../../assets/projects/todo3.png";
+import todo4 from "../../assets/projects/todo4.png";
+import todo5 from "../../assets/projects/todo5.png";
+
+import medical1 from "../../assets/projects/medical1.png";
+import medical2 from "../../assets/projects/medical2.png";
+import medical3 from "../../assets/projects/medical3.png";
+import medical4 from "../../assets/projects/medical4.png";
+
+import petcare1 from "../../assets/projects/petcare1.png";
+import petcare2 from "../../assets/projects/petcare2.png";
+import petcare3 from "../../assets/projects/petcare3.png";
+import petcare4 from "../../assets/projects/petcare4.png";
+import petcare5 from "../../assets/projects/petcare5.png";
+import petcare6 from "../../assets/projects/petcare6.png";
+import petcare7 from "../../assets/projects/petcare7.png";
+import petcare8 from "../../assets/projects/petcare8.png";
+
+
+
+
+
 
 
 const categories = [
@@ -77,9 +110,58 @@ const categories = [
     name: "All",
     posts: [
       {
+        id: 18,
+        title: "PetCare ",
+        image: [petcare1, petcare2, petcare3, petcare4,petcare5, petcare6, petcare7, petcare8],
+        description:
+          ``,
+        technologies:
+          "React - TaillwindCSS - TypeScript - react_router_dom - react-slick - Axios - redux - redux toolkit query - Shadcn/ui ",
+        Githup: "https://github.com/mostafa-mosad1/PetCare-final-graduation",
+        Demo: "https://drive.google.com/file/d/1nT5j1CEA5yjtOmunvflOWKAzEpbY_8v-/view",
+      },
+      {
+        id: 17,
+        title: "Medical-Islands-Company ",
+        image: [medical1, medical2, medical3, medical4],
+        description:
+          `A task management web application built with React, using Redux for state management and Material UI for an attractive interface. The app displays a task list with features to add, edit, delete, and categorize tasks by priority or due date. It interacts with the Dummy JSON API using Axios to simulate operations and updates data in real-time via Socket.io-client. The application supports instant updates and synchronization across connected devices, ensuring a seamless user experience.`,
+        technologies:
+          "Redux - Material UI - Axios - Dummy JSON - Socket.io-client",
+        Githup: "https://github.com/mostafa-mosad1/Medical-Islands-Task",
+        Demo: "https://drive.google.com/file/d/1nT5j1CEA5yjtOmunvflOWKAzEpbY_8v-/view",
+      },
+      {
+        id: 16,
+        title: "Todo-App ",
+        image: [todo1, todo2, todo3, todo4, todo5],
+        description:
+          `The TODO project is an application designed to help you manage daily activities and tasks. It 
+allows you to add new activities, mark them as completed, and edit or delete them as 
+needed. The app also provides an option to view all added activities, making it easier to track 
+progress and prioritize tasks effectively. `,
+        technologies:
+          "next.js - MongoDB - shadcn/ui - Clerk  - TypeScript   ",
+        Githup: "https://github.com/mostafa-mosad1/Todo-App",
+        Demo: "https://todo-app-beta-nine-51.vercel.app/",
+      },
+      {
+        id: 15,
+        title: "Ecommerce-with-Dashboard ",
+        image: [ecommerce1, ecommerce2, ecommerce3, ecommerce4, ecommerce5, ecommerce6],
+        description:
+          `The project is an e-commerce website where users can browse and purchase products, with a 
+shopping cart feature to manage items before checkout. It includes an admin dashboard for 
+managing products and categories, allowing for easy addition, deletion, and updates. `,
+        technologies:
+          "React - TaillwindCSS - TypeScript - strapi.io  - react_router_dom - react-slick - Axios - redux - redux toolkit query - Chakra UI ",
+        Githup: "https://github.com/mostafa-mosad1/Ecommerce-with-Dashboard",
+        Demo: "https://ecommerce-with-dashboard-sage.vercel.app/Home",
+      },
+      {
         id: 14,
         title: "Qurank",
-        image: [Qurank1, Qurank2, Qurank3, Qurank4, Qurank5,Qurank6,Qurank7],
+        image: [Qurank1, Qurank2, Qurank3, Qurank4, Qurank5, Qurank6, Qurank7],
         description:
           "A comprehensive Quran website offering recitations, multiple interpretations for each verse, related Hadiths, and live Quran radio streaming. It aims to facilitate Quran understanding and reflection through educational and interactive tools.",
         technologies:
@@ -351,9 +433,44 @@ const categories = [
     name: "React",
     posts: [
       {
+      id: 18,
+      title: "PetCare ",
+      image: [petcare1, petcare2, petcare3, petcare4,petcare5, petcare6, petcare7, petcare8],
+      description:
+        ``,
+      technologies:
+        "React - TaillwindCSS - TypeScript - react_router_dom - react-slick - Axios - redux - redux toolkit query - Shadcn/ui ",
+      Githup: "https://github.com/mostafa-mosad1/PetCare-final-graduation",
+      Demo: "https://drive.google.com/file/d/1nT5j1CEA5yjtOmunvflOWKAzEpbY_8v-/view",
+    },
+    {
+      id: 17,
+      title: "Medical-Islands-Company ",
+      image: [medical1, medical2, medical3, medical4],
+      description:
+        `A task management web application built with React, using Redux for state management and Material UI for an attractive interface. The app displays a task list with features to add, edit, delete, and categorize tasks by priority or due date. It interacts with the Dummy JSON API using Axios to simulate operations and updates data in real-time via Socket.io-client. The application supports instant updates and synchronization across connected devices, ensuring a seamless user experience.`,
+      technologies:
+        "Redux - Material UI - Axios - Dummy JSON - Socket.io-client",
+      Githup: "https://github.com/mostafa-mosad1/Medical-Islands-Task",
+      Demo: "https://drive.google.com/file/d/1nT5j1CEA5yjtOmunvflOWKAzEpbY_8v-/view",
+    },
+      {
+        id: 15,
+        title: "Ecommerce-with-Dashboard ",
+        image: [ecommerce1, ecommerce2, ecommerce3, ecommerce4, ecommerce5, ecommerce6],
+        description:
+          `The project is an e-commerce website where users can browse and purchase products, with a 
+shopping cart feature to manage items before checkout. It includes an admin dashboard for 
+managing products and categories, allowing for easy addition, deletion, and updates. `,
+        technologies:
+          "React - TaillwindCSS - TypeScript - strapi.io  - react_router_dom - react-slick - Axios - redux - redux toolkit query - Chakra UI ",
+        Githup: "https://github.com/mostafa-mosad1/Ecommerce-with-Dashboard",
+        Demo: "https://ecommerce-with-dashboard-sage.vercel.app/Home",
+      },  
+      {
         id: 14,
         title: "Qurank",
-        image: [Qurank1, Qurank2, Qurank3, Qurank4, Qurank5,Qurank6,Qurank7],
+        image: [Qurank1, Qurank2, Qurank3, Qurank4, Qurank5, Qurank6, Qurank7],
         description:
           "A comprehensive Quran website offering recitations, multiple interpretations for each verse, related Hadiths, and live Quran radio streaming. It aims to facilitate Quran understanding and reflection through educational and interactive tools.",
         technologies:
@@ -407,6 +524,20 @@ const categories = [
     name: "Next.js",
     posts: [
       {
+        id: 16,
+        title: "Todo-App ",
+        image: [todo1, todo2, todo3, todo4, todo5],
+        description:
+          `The TODO project is an application designed to help you manage daily activities and tasks. It 
+allows you to add new activities, mark them as completed, and edit or delete them as 
+needed. The app also provides an option to view all added activities, making it easier to track 
+progress and prioritize tasks effectively. `,
+        technologies:
+          "next.js - MongoDB - shadcn/ui - Clerk  - TypeScript   ",
+        Githup: "https://github.com/mostafa-mosad1/Todo-App",
+        Demo: "https://todo-app-beta-nine-51.vercel.app/",
+      },
+      {
         id: 1,
         title: "Social App",
         image: [social1, social2, social3, social4, social5],
@@ -434,10 +565,10 @@ export default function Projects() {
 
   return (
     <>
-      <div className="flex h-screen w-full justify-center pt-20 px-4">
+      <div className="flex relative h-screen w-full justify-center pt-20 px-4">
         <div className="w-full container">
           <TabGroup>
-            <TabList className="flex flex-wrap flex-row justify-center items-center text-2xl gap-4">
+            <TabList className="flex sticky top-2 z-40 inset-x-0  bg-navBG rounded-full px-6 py-2  w-fit mx-auto text-center space-x-4 font-semibold flex-wrap flex-row justify-center items-center text-2xl gap-4">
               {categories.map(({ name }) => (
                 <Tab
                   key={name}
