@@ -19,7 +19,7 @@ function NavBar() {
   }, [mode]);
   return (
     <>
-      <div className="pc fixed top-0 inset-x-0 z-50 border-b-mainColor border-transparent border-[1px] dark:bg-black bg-[#1E0235]">
+      <div className="pc fixed top-0 inset-x-0 z-50 border-b-mainColor border-transparent border-[1px] bg-black ">
         <div className="hidden lg:flex container justify-between py-5  text-white font-titleFont">
           <div className="flex">
           

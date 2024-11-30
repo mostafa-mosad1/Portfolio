@@ -28,7 +28,8 @@ const {mode} = useContext(ModeContext)
     () => ({
       background: {
         color: {
-          value:mode=="light" ? "#1E0235" : "#000"
+          // value:mode=="light" ? "#1E0235" : "#000"
+          value:"#000"
         },
       },
       fpsLimit: 120,
