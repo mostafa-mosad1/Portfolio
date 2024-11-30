@@ -24,7 +24,7 @@ function Home() {
               <button className=" border-mainColor border-[2px] w-full lg:w-fit  p-2 my-2 rounded-md hover:bg-mainColor hover:text-white font-bold">
                 <a
                   target="_blank"
-                  href="https://drive.google.com/file/d/1ruQIgKBAeQhU8xesY4YL_LyiXjfRB-EA/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1cm9uUuQwOqwF06Z9BLsO22huHg4gsVaq/view?usp=sharing"
                 >
                   Get Resume
                 </a>
