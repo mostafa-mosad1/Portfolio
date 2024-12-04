@@ -112,13 +112,19 @@ const categories = [
       {
         id: 18,
         title: "PetCare ",
-        image: [petcare1, petcare2, petcare3, petcare4,petcare5, petcare6, petcare7, petcare8],
+        image: [petcare1, petcare2, petcare3, petcare4, petcare5, petcare6, petcare7, petcare8],
         description:
-          ``,
+          `Pet Care is a website that allows animal breeders to easily access a website or application to 
+purchase supplies for their animals. It has a store with merchandise for animals, including 
+food, medicine, and other necessities. They can also immediately connect with the doctor 
+thanks to the website's inclusion of some reputable medical professionals. Additionally, some 
+business owners sell their products through the website's store, so you can connect with 
+them there to find out if your animal has an illness, select when to vaccinate your animal, or 
+schedule an appointment`,
         technologies:
           "React - TaillwindCSS - TypeScript - react_router_dom - react-slick - Axios - redux - redux toolkit query - Shadcn/ui ",
         Githup: "https://github.com/mostafa-mosad1/PetCare-final-graduation",
-        Demo: "https://drive.google.com/file/d/1nT5j1CEA5yjtOmunvflOWKAzEpbY_8v-/view",
+        Demo: "https://drive.google.com/file/d/1DWL49NJLkd5TDuKSjgB-UuR_iV7MGqSG/view?usp=sharing",
       },
       {
         id: 17,
@@ -433,27 +439,33 @@ managing products and categories, allowing for easy addition, deletion, and upda
     name: "React",
     posts: [
       {
-      id: 18,
-      title: "PetCare ",
-      image: [petcare1, petcare2, petcare3, petcare4,petcare5, petcare6, petcare7, petcare8],
-      description:
-        ``,
-      technologies:
-        "React - TaillwindCSS - TypeScript - react_router_dom - react-slick - Axios - redux - redux toolkit query - Shadcn/ui ",
-      Githup: "https://github.com/mostafa-mosad1/PetCare-final-graduation",
-      Demo: "https://drive.google.com/file/d/1nT5j1CEA5yjtOmunvflOWKAzEpbY_8v-/view",
-    },
-    {
-      id: 17,
-      title: "Medical-Islands-Company ",
-      image: [medical1, medical2, medical3, medical4],
-      description:
-        `A task management web application built with React, using Redux for state management and Material UI for an attractive interface. The app displays a task list with features to add, edit, delete, and categorize tasks by priority or due date. It interacts with the Dummy JSON API using Axios to simulate operations and updates data in real-time via Socket.io-client. The application supports instant updates and synchronization across connected devices, ensuring a seamless user experience.`,
-      technologies:
-        "Redux - Material UI - Axios - Dummy JSON - Socket.io-client",
-      Githup: "https://github.com/mostafa-mosad1/Medical-Islands-Task",
-      Demo: "https://drive.google.com/file/d/1nT5j1CEA5yjtOmunvflOWKAzEpbY_8v-/view",
-    },
+        id: 18,
+        title: "PetCare ",
+        image: [petcare1, petcare2, petcare3, petcare4, petcare5, petcare6, petcare7, petcare8],
+        description:
+          `Pet Care is a website that allows animal breeders to easily access a website or application to 
+purchase supplies for their animals. It has a store with merchandise for animals, including 
+food, medicine, and other necessities. They can also immediately connect with the doctor 
+thanks to the website's inclusion of some reputable medical professionals. Additionally, some 
+business owners sell their products through the website's store, so you can connect with 
+them there to find out if your animal has an illness, select when to vaccinate your animal, or 
+schedule an appointment`,
+        technologies:
+          "React - TaillwindCSS - TypeScript - react_router_dom - react-slick - Axios - redux - redux toolkit query - Shadcn/ui ",
+        Githup: "https://github.com/mostafa-mosad1/PetCare-final-graduation",
+        Demo: "https://drive.google.com/file/d/1DWL49NJLkd5TDuKSjgB-UuR_iV7MGqSG/view?usp=sharing",
+      },
+      {
+        id: 17,
+        title: "Medical-Islands-Company ",
+        image: [medical1, medical2, medical3, medical4],
+        description:
+          `A task management web application built with React, using Redux for state management and Material UI for an attractive interface. The app displays a task list with features to add, edit, delete, and categorize tasks by priority or due date. It interacts with the Dummy JSON API using Axios to simulate operations and updates data in real-time via Socket.io-client. The application supports instant updates and synchronization across connected devices, ensuring a seamless user experience.`,
+        technologies:
+          "Redux - Material UI - Axios - Dummy JSON - Socket.io-client",
+        Githup: "https://github.com/mostafa-mosad1/Medical-Islands-Task",
+        Demo: "https://drive.google.com/file/d/1nT5j1CEA5yjtOmunvflOWKAzEpbY_8v-/view",
+      },
       {
         id: 15,
         title: "Ecommerce-with-Dashboard ",
@@ -466,7 +478,7 @@ managing products and categories, allowing for easy addition, deletion, and upda
           "React - TaillwindCSS - TypeScript - strapi.io  - react_router_dom - react-slick - Axios - redux - redux toolkit query - Chakra UI ",
         Githup: "https://github.com/mostafa-mosad1/Ecommerce-with-Dashboard",
         Demo: "https://drive.google.com/file/d/10F8YCuJpVUjyRsXnCVsrjBmaNRs3eduK/view?usp=sharing",
-      },  
+      },
       {
         id: 14,
         title: "Qurank",
